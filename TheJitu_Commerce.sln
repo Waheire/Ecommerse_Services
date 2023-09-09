@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{6A0901CB-51B1-418A-A73E-207438440A28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{66B4B099-0E91-4979-8D9C-74C7B5093766}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{23617A5A-D2F2-4FD2-9C9F-B4FFA546766F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheJitu_Commerce_Auth", "TheJitu_Commerce_Auth\TheJitu_Commerce_Auth.csproj", "{BB8B4315-75DA-45C0-A461-F3D67E2744D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB8B4315-75DA-45C0-A461-F3D67E2744D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8B4315-75DA-45C0-A461-F3D67E2744D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8B4315-75DA-45C0-A461-F3D67E2744D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8B4315-75DA-45C0-A461-F3D67E2744D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB8B4315-75DA-45C0-A461-F3D67E2744D5} = {23617A5A-D2F2-4FD2-9C9F-B4FFA546766F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1AB57BD-A337-43A2-8F48-97EC43D12CE1}
+	EndGlobalSection
+EndGlobal
