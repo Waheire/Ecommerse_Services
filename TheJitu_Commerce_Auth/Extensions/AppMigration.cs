@@ -4,7 +4,7 @@ using TheJitu_Commerce_Auth.Data;
 
 namespace TheJitu_Commerce_Auth.Extensions
 {
-    public static class AppMigration
+    public static class AddMigration
     {
         public static IApplicationBuilder  UseMigration(this IApplicationBuilder app)
         {

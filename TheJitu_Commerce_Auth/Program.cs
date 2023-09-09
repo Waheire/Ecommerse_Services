@@ -5,6 +5,7 @@ using TheJitu_Commerce_Auth.Extensions;
 using TheJitu_Commerce_Auth.Model;
 using TheJitu_Commerce_Auth.Services;
 using TheJitu_Commerce_Auth.Services.IService;
+using TheJitu_Commerce_Auth.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,12 +25,15 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 //Register Identity framework
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
 
-
 //RegisterService
 builder.Services.AddScoped<IUserInterface, UserService>();
+builder.Services.AddScoped<IJwtTokenGenerator, JwtSTokenService>();
 
 //Add Automapper
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+//configure jwt options
+builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("JwtOptions"));
 
 var app = builder.Build();
 
