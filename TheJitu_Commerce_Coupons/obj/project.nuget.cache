@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cbbr4z8m1M3DNNY5zf4YGSOjgrsNJiTKx+/8oBVGkVnA6RnJs1PgqpZXE7MqE5Ev0mhll7LC9vy8gzYHRimGGg==",
+  "dgSpecHash": "8WIZb2MC0e4k1G1UvfLzCF3l+aUVGwjEd2hhzgvFJ0S5KBSFSfGcsfLq2+LWPHRHMcN+fctrd1OuKt8Exudjvw==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\c#\\TheJitu-Commerce\\TheJitu_Commerce_Coupons\\TheJitu_Commerce_Coupons.csproj",
+  "projectFilePath": "C:\\Projects\\DotNet\\Ecommerse_Services\\TheJitu_Commerce_Coupons\\TheJitu_Commerce_Coupons.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brown\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\brown\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -86,7 +86,11 @@
     "C:\\Users\\brown\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\brown\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\brown\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\brown\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\brown\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\brown\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.9\\microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\brown\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.9\\microsoft.netcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\brown\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.9\\microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\brown\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.9\\microsoft.netcore.app.host.win-x64.7.0.9.nupkg.sha512"
   ],
   "logs": []
 }

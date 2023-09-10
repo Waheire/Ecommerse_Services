@@ -9,9 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{23617A5A-D2F2-4FD2-9C9F-B4FFA546766F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheJitu_Commerce_Auth", "TheJitu_Commerce_Auth\TheJitu_Commerce_Auth.csproj", "{BB8B4315-75DA-45C0-A461-F3D67E2744D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheJitu_Commerce_Auth", "TheJitu_Commerce_Auth\TheJitu_Commerce_Auth.csproj", "{BB8B4315-75DA-45C0-A461-F3D67E2744D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheJitu_Commerce_Coupons", "TheJitu_Commerce_Coupons\TheJitu_Commerce_Coupons.csproj", "{D8E3B3FA-F738-409A-A93D-A4C614730F29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheJitu_Commerce_Coupons", "TheJitu_Commerce_Coupons\TheJitu_Commerce_Coupons.csproj", "{D8E3B3FA-F738-409A-A93D-A4C614730F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheJitu_Commerce_Products", "TheJitu_Commerce_Products\TheJitu_Commerce_Products.csproj", "{CBC542DA-F812-44C2-829B-1C15C7329A19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D8E3B3FA-F738-409A-A93D-A4C614730F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8E3B3FA-F738-409A-A93D-A4C614730F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8E3B3FA-F738-409A-A93D-A4C614730F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC542DA-F812-44C2-829B-1C15C7329A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC542DA-F812-44C2-829B-1C15C7329A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC542DA-F812-44C2-829B-1C15C7329A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC542DA-F812-44C2-829B-1C15C7329A19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BB8B4315-75DA-45C0-A461-F3D67E2744D5} = {23617A5A-D2F2-4FD2-9C9F-B4FFA546766F}
 		{D8E3B3FA-F738-409A-A93D-A4C614730F29} = {23617A5A-D2F2-4FD2-9C9F-B4FFA546766F}
+		{CBC542DA-F812-44C2-829B-1C15C7329A19} = {23617A5A-D2F2-4FD2-9C9F-B4FFA546766F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1AB57BD-A337-43A2-8F48-97EC43D12CE1}

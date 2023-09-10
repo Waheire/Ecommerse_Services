@@ -6,7 +6,7 @@ namespace TheJitu_Commerce_Coupons.Services.IService
     {
         Task<IEnumerable<Coupon>> GetCouponsAsync();
         Task<Coupon> GetCouponByIdAsync(Guid id);
-        Task<Coupon> GetCouponByNameAsync(string Code);
+        Task<Coupon> GetCouponByNameAsync(string code);
         Task<string> AddCouponAsync(Coupon coupon);
         Task<string> UpdateCouponAsync(Coupon coupon);
         Task<string>DeleteCouponAsync(Coupon coupon);

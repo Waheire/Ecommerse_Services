@@ -32,9 +32,9 @@ namespace TheJitu_Commerce_Coupons.Services
             return await _context.Coupons.FirstOrDefaultAsync(x => x.CouponId == id);
         }
 
-        public async Task<Coupon> GetCouponByNameAsync(string couponCode)
+        public async Task<Coupon> GetCouponByNameAsync(string code)
         {
-            return await _context.Coupons.FirstOrDefaultAsync(x => x.CouponCode.ToLower() == couponCode.ToLower());
+            return await _context.Coupons.FirstOrDefaultAsync(x => x.CouponCode.ToLower() == code.ToLower());
         }
 
         public async  Task<IEnumerable<Coupon>> GetCouponsAsync()

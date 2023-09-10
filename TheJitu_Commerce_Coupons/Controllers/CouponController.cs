@@ -24,7 +24,7 @@ namespace TheJitu_Commerce_Coupons.Controllers
         }
 
         [HttpGet("coupons")]
-        public async Task<ActionResult<ResponseDto>> GellAllCoupons() 
+        public async Task<ActionResult<ResponseDto>> GetAllCoupons() 
         {
             var coupons = await _couponInterface.GetCouponsAsync();
             if (coupons == null) 
