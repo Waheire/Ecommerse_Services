@@ -9,6 +9,8 @@ namespace TheJitu_Commerce_Products.Model.Dtos
         [Required]
         public string ProductDescription { get; set; } = string.Empty;
         [Required]
-        public int ProductPrice { get; set; }
+        public double ProductPrice { get; set; }
+        public string CategoryName { get; set; } = string.Empty;
+        public string ImageUrl { get; set; } = string.Empty;
     }
 }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TheJitu_Commerce_Cart.props" />
+</Project>

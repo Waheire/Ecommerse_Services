@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using TheJitu_Commerce_Products.Data;
 using TheJitu_Commerce_Products.Exentions;
+using TheJitu_Commerce_Products.Extensions;
 using TheJitu_Commerce_Products.Services;
 using TheJitu_Commerce_Products.Services.IService;
 
@@ -37,7 +38,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 
 app.UseMigration();
 app.UseHttpsRedirection();

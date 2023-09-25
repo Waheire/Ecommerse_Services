@@ -8,7 +8,7 @@ using TheJitu_Commerce_Coupons.Services.IService;
 
 namespace TheJitu_Commerce_Coupons.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     [Authorize]
     public class CouponController : ControllerBase

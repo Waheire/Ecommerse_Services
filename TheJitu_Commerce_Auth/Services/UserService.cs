@@ -35,8 +35,7 @@ namespace TheJitu_Commerce_Auth.Services
                 if (!_roleManager.RoleExistsAsync(RoleName).GetAwaiter().GetResult()) 
                 {
                     //create role
-                    _roleManager.CreateAsync(new IdentityRole(RoleName)).GetAwaiter().GetResult();
-                    
+                    _roleManager.CreateAsync(new IdentityRole(RoleName)).GetAwaiter().GetResult(); 
                 }
                 //link user to role
                 await _userManager.AddToRoleAsync(user, RoleName);

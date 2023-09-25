@@ -5,7 +5,7 @@ using TheJitu_Commerce_Auth.Services.IService;
 
 namespace TheJitu_Commerce_Auth.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {

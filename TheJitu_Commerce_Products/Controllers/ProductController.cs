@@ -9,7 +9,7 @@ using TheJitu_Commerce_Products.Services.IService;
 
 namespace TheJitu_Commerce_Products.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {

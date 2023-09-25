@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheJitu_Commerce_Products")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48c1cd9d309db81d4e153b26d462f6e402c3f860")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fa6fc36ce3dd257a611685ef9cf243d4a406b37")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheJitu_Commerce_Products")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheJitu_Commerce_Products")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TheJitu_Commerce_Products.Data;
 
-namespace TheJitu_Commerce_Products.Exentions
+namespace TheJitu_Commerce_Products.Extensions
 {
     public static class AddMigration
     {
