@@ -44,6 +44,20 @@ namespace TheJitu_Commerce_Auth.Services
             return false;
         }
 
+        public async Task<string> DeleteUser(ApplicationUser applicationUser)
+        {
+            //check if user exists
+            var user = await _context.ApplicationUsers.FirstOrDefaultAsync(u => u.Id == applicationUser.Id);
+            if (user != null) 
+            { 
+                //user exists
+                 _userManager.DeleteAsync(user);
+                _context.SaveChanges();
+                return "product deleted successfully";
+            }
+            return "User does not exist";
+        }
+
         public async Task<LoginResponseDto> Login(LoginRequestDto loginRequestDto)
         {
             //Get user by username
@@ -91,6 +105,11 @@ namespace TheJitu_Commerce_Auth.Services
             {
                 return ex.Message;
             }
+        }
+
+        public Task<string> UpdateUser(ApplicationUser applicationUser)
+        {
+            throw new NotImplementedException();
         }
     }
 }

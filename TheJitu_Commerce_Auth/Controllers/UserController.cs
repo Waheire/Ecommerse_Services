@@ -62,5 +62,11 @@ namespace TheJitu_Commerce_Auth.Controllers
             _responseDto.Result = response;
             return Ok(_responseDto);
         }
+
+        //[HttpDelete]
+        //public async Task<ActionResult<ResponseDto>> DeleteUser() 
+        //{
+        //    var user = await _userInterface.
+        //}
     }
 }

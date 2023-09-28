@@ -18,7 +18,6 @@ namespace TheJitu_Commerce_Products.Exentions
                     ValidAudience = builder.Configuration["JwtOptions:Audience"],
                     ValidIssuer = builder.Configuration["JwtOptions:Issuer"],
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtOptions:SecretKey"]))
-
                 };
             });
             return builder;
