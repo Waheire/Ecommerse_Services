@@ -46,7 +46,7 @@ namespace TheJitu_Commerce_Cart.Migrations
 
             modelBuilder.Entity("TheJitu_Commerce_Cart.Model.CartHeader", b =>
                 {
-                    b.Property<Guid>("cartHeader")
+                    b.Property<Guid>("CartHeaderId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
@@ -56,7 +56,7 @@ namespace TheJitu_Commerce_Cart.Migrations
                     b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.HasKey("cartHeader");
+                    b.HasKey("CartHeaderId");
 
                     b.ToTable("CartHeader");
                 });

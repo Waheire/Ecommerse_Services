@@ -19,6 +19,7 @@ namespace TheJitu_Commerce_Auth.Controllers
         }
 
         [HttpPost("register")]
+        //[AutoValidateAntiforgeryToken]
         public async Task<ActionResult<ResponseDto>> AddUser(RegisterRequestDto registerRequestDto) 
         {
             var errorMessage = await _userInterface.RegisterUser(registerRequestDto);
@@ -48,7 +49,7 @@ namespace TheJitu_Commerce_Auth.Controllers
         }
 
 
-        [HttpPost("Assign Role")]
+        [HttpPost("Assign-Role")]
         public async Task<ActionResult<ResponseDto>> AssignRole(RegisterRequestDto registerRequestDto)
         {
             var response = await _userInterface.AssignUserRole(registerRequestDto.Email, registerRequestDto.Role);

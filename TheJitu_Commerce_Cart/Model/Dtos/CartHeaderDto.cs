@@ -5,7 +5,7 @@ namespace TheJitu_Commerce_Cart.Model.Dtos
 {
     public class CartHeaderDto
     {
-        public Guid cartHeader { get; set; }
+        public Guid CartHeaderId { get; set; }
         public Guid UserId { get; set; }
         public string? CouponCode { get; set; } = string.Empty;
         public int Discount { get; set; }

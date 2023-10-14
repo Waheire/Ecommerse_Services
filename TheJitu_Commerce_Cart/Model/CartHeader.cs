@@ -6,7 +6,7 @@ namespace TheJitu_Commerce_Cart.Model
     public class CartHeader
     {
         [Key]
-        public Guid cartHeaderId { get; set; }
+        public Guid CartHeaderId { get; set; }
         [Required]
         public Guid UserId { get; set; }
         public string? CouponCode { get; set; } = string.Empty;
@@ -15,6 +15,5 @@ namespace TheJitu_Commerce_Cart.Model
         public int Discount { get; set; }
         [NotMapped]
         public int CartTotal { get; set; }
-
     }
 }

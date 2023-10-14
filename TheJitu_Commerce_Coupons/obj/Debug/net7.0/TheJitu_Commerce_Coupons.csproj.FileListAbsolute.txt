@@ -171,3 +171,7 @@ C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Coupons\obj\Debug\net7.0\
 C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Coupons\obj\Debug\net7.0\TheJitu_Commerce_Coupons.pdb
 C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Coupons\obj\Debug\net7.0\TheJitu_Commerce_Coupons.genruntimeconfig.cache
 C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Coupons\obj\Debug\net7.0\ref\TheJitu_Commerce_Coupons.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Coupons\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Coupons\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Coupons\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Coupons\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

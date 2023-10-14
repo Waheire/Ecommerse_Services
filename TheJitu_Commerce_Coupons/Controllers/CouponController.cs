@@ -10,7 +10,7 @@ namespace TheJitu_Commerce_Coupons.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    [Authorize]
+    //add authorize when done testing
     public class CouponController : ControllerBase
     {
         private readonly IMapper _mapper;
@@ -23,7 +23,7 @@ namespace TheJitu_Commerce_Coupons.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet("coupons")]
+        [HttpGet("getCoupons")]
         public async Task<ActionResult<ResponseDto>> GetAllCoupons() 
         {
             var coupons = await _couponInterface.GetCouponsAsync();
@@ -37,8 +37,8 @@ namespace TheJitu_Commerce_Coupons.Controllers
             return Ok(_responseDto);
         }
 
-        [HttpPost]
-        [Authorize(Roles ="Admin")]
+        [HttpPost("add")]
+        //[Authorize(Roles ="Admin")]
         public async Task<ActionResult<ResponseDto>> AddCoupon(CouponRequestDto couponRequestDto)
         {
             var newCoupon = _mapper.Map<Coupon>(couponRequestDto);
@@ -53,7 +53,7 @@ namespace TheJitu_Commerce_Coupons.Controllers
             return Ok(_responseDto);
         }
 
-        [HttpGet("GetByName{code}")]
+        [HttpGet("GetByName/{code}")]
         public async Task<ActionResult<ResponseDto>> GetCouponByName(string code)
         {
             var coupon = await _couponInterface.GetCouponByNameAsync(code);
@@ -67,8 +67,23 @@ namespace TheJitu_Commerce_Coupons.Controllers
             return Ok(_responseDto);
         }
 
-        [HttpPut]
-        [Authorize(Roles = "Admin")]
+        [HttpGet("GetById{couponId}")]
+        public async Task<ActionResult<ResponseDto>> GetCouponById(Guid couponId)
+        {
+            var coupon = await _couponInterface.GetCouponByIdAsync(couponId);
+            if (coupon == null)
+            {
+                _responseDto.IsSuccess = false;
+                _responseDto.Message = "Error Occurred";
+                return BadRequest(_responseDto);
+            }
+            _responseDto.Result = coupon;
+            return Ok(_responseDto);
+        }
+
+
+        [HttpPut("update")]
+        //[Authorize(Roles = "Admin")]
         public async Task<ActionResult<ResponseDto>> UpdateCoupon(Guid id, CouponRequestDto couponRequestDto)
         {
             var coupon = await _couponInterface.GetCouponByIdAsync(id);
@@ -85,8 +100,8 @@ namespace TheJitu_Commerce_Coupons.Controllers
             return Ok(_responseDto);
         }
 
-        [HttpDelete]
-        [Authorize(Roles = "Admin")]
+        [HttpDelete("delete")]
+        //[Authorize(Roles = "Admin")]
         public async Task<ActionResult<ResponseDto>> DeleteCoupon(Guid id)
         {
             var coupon = await _couponInterface.GetCouponByIdAsync(id);

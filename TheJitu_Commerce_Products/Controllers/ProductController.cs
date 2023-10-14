@@ -24,7 +24,7 @@ namespace TheJitu_Commerce_Products.Controllers
             _responseDto = new ResponseDto();
         }
 
-        [HttpGet("Products")]
+        [HttpGet("getProducts")]
         public async Task<ActionResult<ResponseDto>> GetAllProducts() 
         {
             var products = await _productInterface.GetProductsAsync();
@@ -38,7 +38,7 @@ namespace TheJitu_Commerce_Products.Controllers
             return Ok(_responseDto);
         }
 
-        [HttpPost]
+        [HttpPost("add")]
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ResponseDto>> AddProduct(ProductRequestDto addProductRequestDto) 
         {
@@ -83,7 +83,7 @@ namespace TheJitu_Commerce_Products.Controllers
             return Ok(_responseDto);
         }
 
-        [HttpPut]
+        [HttpPut("update")]
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ResponseDto>> UpdateProduct(Guid productId, ProductRequestDto productRequestDto)
         {
@@ -101,7 +101,7 @@ namespace TheJitu_Commerce_Products.Controllers
             return Ok(_responseDto);
         }
 
-        [HttpDelete]
+        [HttpDelete("delete")]
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ResponseDto>> DeleteCoupon(Guid productId)
         {

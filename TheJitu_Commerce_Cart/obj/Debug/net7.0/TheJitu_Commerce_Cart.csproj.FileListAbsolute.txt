@@ -85,3 +85,7 @@ C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Cart\obj\Debug\net7.0\ref
 C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Cart\obj\Debug\net7.0\TheJitu_Commerce_Cart.pdb
 C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Cart\obj\Debug\net7.0\TheJitu_Commerce_Cart.genruntimeconfig.cache
 C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Cart\obj\Debug\net7.0\ref\TheJitu_Commerce_Cart.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Cart\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Cart\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Cart\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Cart\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
