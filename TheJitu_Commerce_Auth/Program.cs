@@ -6,6 +6,7 @@ using TheJitu_Commerce_Auth.Model;
 using TheJitu_Commerce_Auth.Services;
 using TheJitu_Commerce_Auth.Services.IService;
 using TheJitu_Commerce_Auth.Utility;
+using TheJituMessageBus;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFramework
 //RegisterService
 builder.Services.AddScoped<IUserInterface, UserService>();
 builder.Services.AddScoped<IJwtTokenGenerator, JwtSTokenService>();
+builder.Services.AddScoped<IMessageBus, MessageBus>();
 
 //Add Automapper
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());

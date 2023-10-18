@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TheJitu_Commerce_Cart.Model.Dtos;
 using TheJitu_Commerce_Cart.Services.IService;
@@ -7,6 +8,7 @@ namespace TheJitu_Commerce_Cart.Controllers
 {
     [Route("[controller]")]
     [ApiController]
+    [Authorize]
     public class CartController : ControllerBase
     {
         private readonly ICartInterface _cartService;
@@ -44,7 +46,7 @@ namespace TheJitu_Commerce_Cart.Controllers
             return Ok(_responseDto);
         }
 
-        [HttpDelete("delete")]
+        [HttpDelete("deleteFromCart")]
         public async Task<ActionResult<ResponseDto>> RemoveFromCart([FromBody] Guid cartDetailsId) 
         {
             try 

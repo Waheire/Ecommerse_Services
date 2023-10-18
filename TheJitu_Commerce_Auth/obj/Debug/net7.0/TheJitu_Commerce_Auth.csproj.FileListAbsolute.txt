@@ -175,3 +175,8 @@ C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Auth\bin\Debug\net7.0\Mic
 C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Auth\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Auth\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Auth\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Auth\bin\Debug\net7.0\Azure.Core.Amqp.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Auth\bin\Debug\net7.0\Azure.Messaging.ServiceBus.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Auth\bin\Debug\net7.0\Microsoft.Azure.Amqp.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Auth\bin\Debug\net7.0\TheJituMessageBus.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJitu_Commerce_Auth\bin\Debug\net7.0\TheJituMessageBus.pdb

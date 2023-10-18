@@ -1,0 +1,13 @@
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\bin\Debug\net7.0\TheJituMessageBus.deps.json
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\bin\Debug\net7.0\TheJituMessageBus.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\bin\Debug\net7.0\TheJituMessageBus.pdb
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\obj\Debug\net7.0\TheJituMessageBus.csproj.AssemblyReference.cache
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\obj\Debug\net7.0\TheJituMessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\obj\Debug\net7.0\TheJituMessageBus.AssemblyInfoInputs.cache
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\obj\Debug\net7.0\TheJituMessageBus.AssemblyInfo.cs
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\obj\Debug\net7.0\TheJituMessageBus.csproj.CoreCompileInputs.cache
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\obj\Debug\net7.0\TheJituMessageBus.sourcelink.json
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\obj\Debug\net7.0\TheJituMessageBus.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\obj\Debug\net7.0\refint\TheJituMessageBus.dll
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\obj\Debug\net7.0\TheJituMessageBus.pdb
+C:\Projects\DotNet\Ecommerse_Services\TheJituMessageBus\obj\Debug\net7.0\ref\TheJituMessageBus.dll

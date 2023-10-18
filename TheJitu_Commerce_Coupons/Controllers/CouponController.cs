@@ -10,7 +10,7 @@ namespace TheJitu_Commerce_Coupons.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    //add authorize when done testing
+    [Authorize]
     public class CouponController : ControllerBase
     {
         private readonly IMapper _mapper;
@@ -18,7 +18,7 @@ namespace TheJitu_Commerce_Coupons.Controllers
         private readonly ResponseDto _responseDto;
         public CouponController(IMapper mapper, ICouponInterface couponInterface)
         {
-            _couponInterface = couponInterface;
+            _couponInterface = couponInterface; 
             _responseDto = new ResponseDto();
             _mapper = mapper;
         }
@@ -38,7 +38,7 @@ namespace TheJitu_Commerce_Coupons.Controllers
         }
 
         [HttpPost("add")]
-        //[Authorize(Roles ="Admin")]
+        [Authorize(Roles ="Admin")]
         public async Task<ActionResult<ResponseDto>> AddCoupon(CouponRequestDto couponRequestDto)
         {
             var newCoupon = _mapper.Map<Coupon>(couponRequestDto);
@@ -83,7 +83,7 @@ namespace TheJitu_Commerce_Coupons.Controllers
 
 
         [HttpPut("update")]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ResponseDto>> UpdateCoupon(Guid id, CouponRequestDto couponRequestDto)
         {
             var coupon = await _couponInterface.GetCouponByIdAsync(id);
@@ -101,7 +101,7 @@ namespace TheJitu_Commerce_Coupons.Controllers
         }
 
         [HttpDelete("delete")]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ResponseDto>> DeleteCoupon(Guid id)
         {
             var coupon = await _couponInterface.GetCouponByIdAsync(id);

@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheJitu_Commerce_Coupons", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheJitu_Commerce_Products", "TheJitu_Commerce_Products\TheJitu_Commerce_Products.csproj", "{CBC542DA-F812-44C2-829B-1C15C7329A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheJitu_Commerce_Cart", "TheJitu_Commerce_Cart\TheJitu_Commerce_Cart.csproj", "{B7F2B638-1D3A-4488-972D-87802AA698BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheJitu_Commerce_Cart", "TheJitu_Commerce_Cart\TheJitu_Commerce_Cart.csproj", "{B7F2B638-1D3A-4488-972D-87802AA698BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheJituMessageBus", "TheJituMessageBus\TheJituMessageBus.csproj", "{57355171-231F-4219-95E0-79FDF2B06D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheJitu_Commerce_Email", "TheJitu_Commerce_Email\TheJitu_Commerce_Email.csproj", "{F942823E-D01E-47BB-8762-389BD0C265DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{B7F2B638-1D3A-4488-972D-87802AA698BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7F2B638-1D3A-4488-972D-87802AA698BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F2B638-1D3A-4488-972D-87802AA698BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57355171-231F-4219-95E0-79FDF2B06D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57355171-231F-4219-95E0-79FDF2B06D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57355171-231F-4219-95E0-79FDF2B06D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57355171-231F-4219-95E0-79FDF2B06D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F942823E-D01E-47BB-8762-389BD0C265DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F942823E-D01E-47BB-8762-389BD0C265DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F942823E-D01E-47BB-8762-389BD0C265DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F942823E-D01E-47BB-8762-389BD0C265DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +60,8 @@ Global
 		{D8E3B3FA-F738-409A-A93D-A4C614730F29} = {23617A5A-D2F2-4FD2-9C9F-B4FFA546766F}
 		{CBC542DA-F812-44C2-829B-1C15C7329A19} = {23617A5A-D2F2-4FD2-9C9F-B4FFA546766F}
 		{B7F2B638-1D3A-4488-972D-87802AA698BE} = {23617A5A-D2F2-4FD2-9C9F-B4FFA546766F}
+		{57355171-231F-4219-95E0-79FDF2B06D21} = {66B4B099-0E91-4979-8D9C-74C7B5093766}
+		{F942823E-D01E-47BB-8762-389BD0C265DC} = {23617A5A-D2F2-4FD2-9C9F-B4FFA546766F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1AB57BD-A337-43A2-8F48-97EC43D12CE1}
